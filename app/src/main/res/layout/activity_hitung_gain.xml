@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".calc.HitungGain">
+
+    <EditText
+        android:hint="input"
+        android:inputType="numberSigned"
+        android:id="@+id/input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:hint="output"
+        android:inputType="numberSigned"
+        android:id="@+id/output"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/input"
+        />
+    <TextView
+        android:textSize="10sp"
+        android:textAlignment="center"
+        android:id="@+id/Hasil"
+        android:text="Hasil:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/output"/>
+    <TextView
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:id="@+id/txtHasil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Hasil"/>
+    <Button
+        android:id="@+id/btnHitung"
+        android:text="Hitung"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtHasil"/>
+
+    <Button
+        android:id="@+id/btnReset"
+        android:text="Reset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnHitung"/>
+
+
+</RelativeLayout>

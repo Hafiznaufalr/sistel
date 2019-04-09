@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">
+        Kalkulator Sistel
+    </string>
+    <string name="app_namee">
+        <html><font color="#2f3640">Kalkulator Sistel</font></html>
+    </string>
+    <string name="hitung_gain">
+        <html><font color="#2f3640">Hitung Gain</font></html>
+    </string>
+    <string name="calc_menu">
+        <html><font color="#2f3640">Menu Kalkulator</font></html>
+    </string>
+    <string name="hitung_los">
+        <html><font color="#2f3640">Hitung Loss</font></html>
+    </string>
+    <string name="hitung_daya">
+        <html><font color="#2f3640">Hitung Daya</font></html>
+    </string>
+
+    <string name="anggota">
+        <html><font color="#2f3640">Anggota</font></html>
+    </string>
+    <string name="flowchart">
+        <html><font color="#2f3640">Flowchart</font></html>
+    </string>
+
+
+</resources>

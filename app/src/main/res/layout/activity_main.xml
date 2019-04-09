@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginTop="@dimen/activity_vertical_margin"
+    android:layout_marginBottom="@dimen/activity_vertical_margin"
+    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+    android:layout_marginRight="@dimen/activity_horizontal_margin"
+
+    android:foreground="?attr/selectableItemBackground">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary">
+
+            <ImageView
+
+                android:id="@+id/kalkulator"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/kalkulator"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                />
+
+
+            <ImageView
+                android:id="@+id/sinyal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/kalkulator"
+                android:src="@drawable/sinyal"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"/>
+
+
+
+
+
+            <ImageView
+                android:id="@+id/flow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/sinyal"
+                android:src="@drawable/flowchart"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"/>
+
+            <ImageView
+                android:id="@+id/tentang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/flow"
+                android:src="@drawable/anggota"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"/>
+
+
+
+        </RelativeLayout>
+</android.support.v4.widget.NestedScrollView>
